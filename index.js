@@ -5,6 +5,7 @@ const socketIO = require('socket.io');
 const app = express();
 const server = http.createServer(app);
 const port = 4500 || process.env.PORT;
+// https:chat-app-topaz-kappa.vercel.app
 app.use(cors());//cors is used for inter communicaiton 
 //between url
 const users = [{}];
